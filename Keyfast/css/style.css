@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*
+{
+    font-family: 'Open Sans', sans-serif;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50em;
+    background-color: #333333;
+}
+.box
+{
+    width: 800px;
+    padding: 30px;
+    background-color: #e9e9e9;
+    border-radius: 10px;
+}
+
+.box .content-box
+{
+    padding: 1px 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #333333;
+}
+
+.content-box .typing-text
+{
+    max-height: 255px;
+    overflow-y: auto;
+}
+
+
+.typing-text::-webkit-scrollbar
+{
+    width: 0;
+}
+.typing-text p
+{
+    font-size: 21px;
+    text-align: justify;
+    letter-spacing: 1px;
+    word-break: break-all;
+}
+
+.content-box .content
+{
+    display: flex;
+    margin-top: 20px;
+    padding: 12px 0;
+    border-top: 1px solid #ccc ;
+    justify-content: space-between;
+}
+
+.content .result-detail
+{
+    display: flex;
+    width: calc(100% - 210px);
+    justify-content: space-between;
+}
+
+.result-detail li
+{
+    text-align: center;
+    list-style: none;
+}
+
+.result-detail li:not(:first-child)
+{
+    padding-left: 22px;
+    border-left: 1px solid #ccc;
+}
+
+.result-detail li p
+{
+    font-size: 19px;
+}
+
+.result-detail li span
+{
+    display: block;
+    font-size: 20px;
+    margin-left: 10px;
+}
