@@ -22,7 +22,7 @@ body
 
 .box .content-box
 {
-    padding: 1px 10px 20px;
+    padding: 1px 10px 5px;
     border-radius: 10px;
     border: 1px solid #333333;
 }
@@ -51,8 +51,29 @@ body
     display: flex;
     margin-top: 20px;
     padding: 12px 0;
+    height: 50px;
     border-top: 1px solid #ccc ;
     justify-content: space-between;
+}
+
+.content button
+{
+    border: none;
+    outline: none;
+    width: 105px;
+    padding: 8px 0;
+    color: #fff;
+    background: #0099ff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+    
+}
+
+.content button:active
+{
+    transform: scale(0.97);
 }
 
 .content .result-detail
@@ -64,7 +85,8 @@ body
 
 .result-detail li
 {
-    text-align: center;
+    display: flex;
+    align-items: center;
     list-style: none;
 }
 
@@ -84,4 +106,15 @@ body
     display: block;
     font-size: 20px;
     margin-left: 10px;
+}
+
+.result-detail li:not(:first-child) span 
+{
+    font-weight: 500;
+}
+
+.result-detail li b
+{
+    font-weight: 500;
+
 }
