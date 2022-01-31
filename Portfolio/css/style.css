@@ -1,0 +1,16 @@
+*
+{
+    /* background-color: black;
+    color: white; */
+}
+
+.main-header
+{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.navbar
+{
+    display: flex;
+
+}
