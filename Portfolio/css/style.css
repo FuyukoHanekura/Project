@@ -1,16 +1,24 @@
-*
-{
-    /* background-color: black;
-    color: white; */
-}
-
 .main-header
 {
+    display: flex;
+    justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.8);
 }
-
-.navbar
+.main-header
+{
+    color: rgb(255, 255, 255);
+}
+.active
+{
+    color: rgb(13, 110, 255);
+}
+.bg
+{
+    background-size: cover;
+}
+main
 {
     display: flex;
+    justify-content: center;
 
 }
