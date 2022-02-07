@@ -1,14 +1,7 @@
 ---
 title: Worksheet Character creation
 created: '2021-08-14T13:36:22.806Z'
-modified: '2021-08-14T13:44:47.812Z'
----
-
----
-tags: [Templates/Worksheet]
-title: Worksheet Character creation
-created: '2021-07-06T09:29:30.783Z'
-modified: '2021-07-06T09:50:00.677Z'
+modified: '2022-02-07T15:13:02.973Z'
 ---
 
 # Worksheet Character creation 

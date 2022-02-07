@@ -2,14 +2,7 @@
 tags: [Fuyuko Hanekura]
 title: Fuyuko Hanekura
 created: '2021-08-14T13:38:19.268Z'
-modified: '2021-08-21T00:34:56.237Z'
----
-
----
-tags: [Characters/Fuyuko]
-title: Fuyuko Hanekura
-created: '2021-07-06T09:33:15.773Z'
-modified: '2021-07-08T13:40:41.915Z'
+modified: '2022-02-07T15:12:45.851Z'
 ---
 
 # Fuyuko Hanekura 
