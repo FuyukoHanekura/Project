@@ -2,7 +2,7 @@
 tags: [Fuyuko Hanekura]
 title: Interview 101
 created: '2021-08-14T13:37:43.020Z'
-modified: '2022-02-07T15:52:30.910Z'
+modified: '2022-02-10T11:52:10.643Z'
 ---
 
 #  Interview 101
@@ -10,11 +10,11 @@ modified: '2022-02-07T15:52:30.910Z'
 Fuyuko Aiko Hanekura.
 2. Where and when were you born?
 3. Who are/were your parents? (Know their names, occupations, personalities, etc.)
-They’re both dead, my father was the Lord of … and my mother was the Azure Princess. My uncle is the … king 
+They’re both dead, my father was the Lord of … and my mother was the Azure Princess. My uncle is the Fuyuno Kuni Emperor 
 4. Do you have any siblings? What are/were they like?
 Yes my little sister who’s also die
 5. Where do you live now, and with whom? Describe the place and the person/people.
-I live in … with my squad 
+I live in Royal Guard Barrackments with my squad 
 6. What is your occupation?
 I’m the chief of the royal guard 
 7. Write a full physical description of yourself. You might want to consider factors such as: height, weight, race, hair and eye color, style of dress, and any tattoos, scars, or distinguishing marks.
