@@ -13,5 +13,9 @@ async def on_message(message):
 
     if message.content.startswith('$hello'):
         await message.channel.send('Hello!')
+    
+    if message.content.startswith('$vroom'):
+        await message.channel.send('the car!')
+
 
 client.run('OTQyNzcxMjc0OTgyMjM2MTcx.YgpWKw.QRaaaVS5IqvlK0OdpiUJjeRp3mo')
