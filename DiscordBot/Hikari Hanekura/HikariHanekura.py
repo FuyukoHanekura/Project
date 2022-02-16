@@ -1,21 +1,43 @@
-import discord
+# Libs
+import discord # For discord
+from discord.ext import commands # For discord
+import logging # For logging
+from pathlib import Path # For paths
+import json
 
-client = discord.Client()
+cwd = Path(__file__).parents[0]
+cwd = str(cwd)
+print(f"{cwd}\n-----")
 
-@client.event
+# Defining a few things
+secret_file = json.load(open(cwd+'/Settings/secret.json'))
+bot = commands.Bot(command_prefix='-', case_insensitive=True)
+bot.config_token = secret_file['token']
+logging.basicConfig(level=logging.INFO)
+
+@bot.event
 async def on_ready():
-    print('We have logged in as {0.user}'.format(client))
+    print(f"-----\nLogged in as: {bot.user.name} : {bot.user.id}\n-----\nMy current prefix is: -\n-----")
+    # Another way to use variables in strings
+    print("-----\nLogged in as: {} : {}\n-----\nMy current prefix is: -\n-----".format(bot.user.name, bot.user.id))
+    await bot.change_presence(activity=discord.Game(name=f"Hi, my names {bot.user.name}.\nUse - to interact with me!")) # This changes the bots 'activity'
 
-@client.event
-async def on_message(message):
-    if message.author == client.user:
-        return
+@bot.command(name='hi', aliases=['hello'])
+async def _hi(ctx):
+    """
+    A simple command which says hi to the author.
+    """
+    await ctx.send(f"Hi {ctx.author.mention}!")
+    # Another way to do this code is (user object).mention
+    #await ctx.send(f"Hi <@{ctx.author.id}>!")
 
-    if message.content.startswith('$hello'):
-        await message.channel.send('Hello!')
-    
-    if message.content.startswith('$vroom'):
-        await message.channel.send('the car!')
+@bot.command()
+async def echo(ctx, *, message=None):
+    """
+    A simple command that repeats the users input back to them.
+    """
+    message = message or "Please provide the message to be repeated."
+    await ctx.message.delete()
+    await ctx.send(message)
 
-
-client.run('OTQyNzcxMjc0OTgyMjM2MTcx.YgpWKw.QRaaaVS5IqvlK0OdpiUJjeRp3mo')
+bot.run(bot.config_token) # Runs our bot
