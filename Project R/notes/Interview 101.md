@@ -2,13 +2,14 @@
 tags: [Fuyuko Hanekura]
 title: Interview 101
 created: '2021-08-14T13:37:43.020Z'
-modified: '2022-02-10T11:52:10.643Z'
+modified: '2022-02-21T10:33:34.338Z'
 ---
 
 #  Interview 101
 1. What is your full name?
 Fuyuko Aiko Hanekura.
 2. Where and when were you born?
+
 3. Who are/were your parents? (Know their names, occupations, personalities, etc.)
 They’re both dead, my father was the Lord of … and my mother was the Azure Princess. My uncle is the Fuyuno Kuni Emperor 
 4. Do you have any siblings? What are/were they like?

@@ -2,7 +2,7 @@
 tags: [Fuyuko Hanekura]
 title: Fuyuko Hanekura
 created: '2021-08-14T13:38:19.268Z'
-modified: '2022-02-10T11:46:57.175Z'
+modified: '2022-02-21T11:09:25.020Z'
 ---
 
 # Fuyuko Hanekura 
@@ -13,16 +13,16 @@ Species: Human/Oni
 Gender: Female
 Age: 210 Ans
 Birthday: 10^th^ April 1311 ~AE~
-Birth Place: Kyouto, Fuyuno Kuni
-Height: 1m35
+Birth Place: Koukyo (Imperial Palace),Kyouto, Fuyuno Kuni
+Height: 1m65
 Weight: 60kg
 Blood Type: ???
 Family: 
 - [Mother] Yuki ???  (Deceased)
 - [Father] Akihiko Hanekura (Deceased) (Razgritz Squad)
-- [Father] Unnamed Sister (Deceased)
+- [Sister] Unnamed Sister (Deceased)
 - [Uncle] Kazuhiko Hanekura
-- [Grandfather] Takeshi Hanekura ~Emperor~ (Deceased)
+- [Grandfather] Takeshi Hanekura ~Emperor~
 Residence: ???
 Affiliations: Royal Squad
 Current occupation: Chief of Royal Squad
@@ -42,7 +42,9 @@ She has a quiet personality. In the past, her Grandfather described her as a bri
 ## History
 
 ### Earlier History
+She was born in the Koukyo but raised in Koori no Kyuuden, in Mokurinkou(黙林皓).
 
+Some years later, her parents got assassinated, she had to left her castle with her sister who will die during her escape. Fuyuko grew up on their own in the forest. One day, 
 
 - - - -
 [^1]: [Akali BloodMoon Skin](https://static.wikia.nocookie.net/leagueoflegends/images/6/6e/Akali_BloodMoonSkin.jpg/revision/latest/scale-to-width-down/1000?cb=20180717204823)
