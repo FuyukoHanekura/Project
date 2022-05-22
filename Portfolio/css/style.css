@@ -30,10 +30,22 @@ body
 {
     color: rgb(255, 255, 255);
 }
+
+.nav-link a
+{
+    color: whitesmoke;
+}
+
+.nav-link a:hover
+{
+    color: rgb(0, 174, 215)!important;
+}
+
 .active
 {
-    color: rgb(13, 110, 255);
+    color: rgb(13, 110, 255)!important;
 }
+
 .headlines
 {
     background-image: url("../assets/background/Background_Image.png");
@@ -61,4 +73,49 @@ main
     background-color: black;
     color: white;
 
+}
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-muted
+{
+    color: #6c757d;
+}
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.top-border
+{
+    border-top: 1px #dee2e6 solid;
+}
+
+.ml-rem
+{
+    margin-left: 1rem;
+}
+
+.list-none
+{
+    list-style: none;
+}
+
+.display-flex
+{
+    display: flex;
+}
+
+.mr-10
+{
+    margin-right: 10px;
+}
+
+.ml-10
+{
+    margin-left: 10px;
 }
