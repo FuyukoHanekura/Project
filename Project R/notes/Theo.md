@@ -1,7 +1,7 @@
 ---
 title: Theo
 created: '2022-06-01T14:13:00.498Z'
-modified: '2022-06-02T15:04:40.628Z'
+modified: '2022-06-05T10:40:23.842Z'
 ---
 
 # Theo 
@@ -39,7 +39,7 @@ Fuyuko Aiko Hanekura, also known as "The Flame Hero"  is the main protagonist of
 ## History
 
 ### Earlier History
-He was raised by Archer, a demon guardian. He gave him ???, the Flame Sword which is ???'s Jail
+He was raised by Archer, a demon guardian. He gave him Fajra, the Flame Sword which is Fajra's demonic Jail
 
 ### Prologue
-
+The chief of the Riverwood village convoke him to deliver his letter of recommendation at Emarage Village
